@@ -20,7 +20,7 @@ sucessor = (numeroInteiro + 1)
 print(antecessor, numeroInteiro, sucessor)
 
 # Extra 4
-alturaTriangulo = 1.80
+alturaTriangulo = float(input("Insira a altura do retângulo: "))
 
 
 # Extra 5
