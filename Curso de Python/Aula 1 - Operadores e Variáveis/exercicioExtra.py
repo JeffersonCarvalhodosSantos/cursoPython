@@ -19,7 +19,9 @@ sucessor = (numeroInteiro + 1)
 
 print(antecessor, numeroInteiro, sucessor)
 
-# Pulando o exercício 4
+# Extra 4
+alturaTriangulo = 1.80
+
 
 # Extra 5
 valor = 350

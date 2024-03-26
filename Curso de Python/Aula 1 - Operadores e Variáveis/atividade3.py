@@ -1,9 +1,9 @@
-numero = 12
+numero = int(input("Digite um valor: "))
 
-print(numero * 2) # Dobro
+dobro = (numero * 2) # Dobro
 
-print(numero * 3) # Triplo
+triplo = (numero * 3) # Triplo
 
-print(numero ** 2) # Raíz quadrada
+quadrado = (numero ** 2) # Raíz quadrada
 
-
+print(dobro, triplo, quadrado)

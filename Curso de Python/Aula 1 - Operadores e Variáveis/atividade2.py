@@ -1,5 +1,5 @@
-numeroInteiro = 235
-antecessor = (numeroInteiro - 1)
-sucessor = (numeroInteiro + 1)
+numeroInteiro = int(input("Digite um valor: "))
+antecessor = numeroInteiro - 1
+sucessor = numeroInteiro + 1
 
 print(antecessor, numeroInteiro, sucessor)

@@ -1,5 +1,5 @@
-numero = 50
-numero2 = 50
+numero = int(input("Digite um valor: "))
+numero2 = int(input("Digite um valor: "))
 
 soma = (numero + numero2)
 
