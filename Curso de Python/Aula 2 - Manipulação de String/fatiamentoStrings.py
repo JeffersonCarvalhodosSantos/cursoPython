@@ -19,7 +19,7 @@ print(frase[:5]) # Acrescendo um ao final.
 
 print(frase[9:]) # Com os dois pontos automaticamente ele reconhece que tem que ir até o final
 
-print(nome[10:18]) 
+print(nome[10:18])
 
 ### Pulando caracteres
 
