@@ -1,3 +1,5 @@
+#Crie um programa que faça o computador jogar Jokenpô com você:
+
 from random import choice
 
 opcoes = ["PEDRA", "PAPEL", "TESOURA"]
@@ -18,5 +20,14 @@ elif escolhaMaquina == "TESOURA" and opcoesUsuario == "PAPEL":
 elif escolhaMaquina == "PAPEL" and opcoesUsuario == "PEDRA":
     print(f"A máquina escolheu {escolhaMaquina}, portanto ela venceu!")
     
+elif escolhaMaquina == "TESOURA" and opcoesUsuario == "PEDRA":
+    print(f"A máquina escolheu {escolhaMaquina}, e você {opcoesUsuario} portanto você venceu!")
+elif escolhaMaquina == "PAPEL" and opcoesUsuario == "TESOURA":
+    print(f"A máquina escolheu {escolhaMaquina}, e você {opcoesUsuario} portanto você venceu!")
+elif escolhaMaquina == "PEDRA" and opcoesUsuario == "PAPEL":
+    print(f"A máquina escolheu {escolhaMaquina}, e você {opcoesUsuario} portanto você venceu!")
+
+
+    
 else:
-    print(f"A máquina escolheu {escolhaMaquina}, portanto você venceu!")
+    print(f"A OPÇAO ESTÁ INCORRETA")
