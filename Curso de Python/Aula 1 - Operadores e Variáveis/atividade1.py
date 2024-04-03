@@ -4,4 +4,4 @@ numero2 = int(input("Digite um valor: "))
 soma = (numero + numero2)
 
 print(soma)
-print(Jefferson)
+
