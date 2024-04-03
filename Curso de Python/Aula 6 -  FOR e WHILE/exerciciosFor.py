@@ -14,40 +14,40 @@ else: print("Estouro dos fogos!")
 
 
 
-# Desafio 2
+# # Desafio 2
 
-inicio = 50
-fim = 1
+# inicio = 50
+# fim = 1
 
-for elemento in range (inicio, fim, -2):
-    print(elemento)
+# for elemento in range (inicio, fim, -2):
+#     print(elemento)
     
 
     
-# Desafio 3
+# # Desafio 3
 
-min = 1
-max = 500
+# min = 1
+# max = 500
 
-numeroImpar = 
+# numeroImpar = 
 
         
 
 
 
-# Desafio 4
+# # Desafio 4
 
-numero = int(input("Escolha um número: "))
-for elemento in range (1,10,1):
-    print(f"{numero} X {elemento} = {numero * elemento}")
-
-
-
-
-
-# Desafio 5
+# numero = int(input("Escolha um número: "))
+# for elemento in range (1,10,1):
+#     print(f"{numero} X {elemento} = {numero * elemento}")
 
 
 
 
-# Desafio 6
+
+# # Desafio 5
+
+
+
+
+# # Desafio 6
