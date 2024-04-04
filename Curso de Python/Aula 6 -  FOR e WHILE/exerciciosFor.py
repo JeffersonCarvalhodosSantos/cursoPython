@@ -59,7 +59,7 @@ for elemento in range (1,7,1):
         
     print(numeroInteiro)
 
-Outra forma de resolver o desafio 5
+#Outra forma de resolver o desafio 5
 
 soma = 0 
 
