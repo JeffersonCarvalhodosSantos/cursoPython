@@ -12,7 +12,7 @@
 # print(f"{numero} X 10 = {8 * 10}")
 
 numero = int(input("Escolha um número: "))
-for elemento in range (1,10,1):
+for elemento in range (1,11,1):
     print(f"{numero} X {elemento} = {numero * elemento} ")
 
 
