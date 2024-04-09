@@ -17,8 +17,8 @@ print(cincoPrimeiros)
 serieC = classificacao[16:20]
 print(serieC)
 
-ordemAlfabetica = classificacao
-print(classificacao)
+ordemAlfabetica = sorted(classificacao)
+print(ordemAlfabetica)
 
 santosJaVaiCair = classificacao[17]
 print(santosJaVaiCair)

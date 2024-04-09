@@ -10,18 +10,19 @@
 from random import randint
 import random
 
-for i in range   
-    
-numeroAleatorio = random.randint(0,10)
-print(numeroAleatorio)
+for numeroAleatorio in range (0,5):
+        numeroAleatorio = random.randint(5,15)
+        print(numeroAleatorio)
 
-tupla = int(numeroAleatorio , numeroAleatorio)
+numeroAleatorio = [12, 9 , 7 ,13, 34]
+tupla = tuple(numeroAleatorio)
+
 print(tupla)
 
+        
 
-if tupla <= 0:
-        print(f"Menor valor é {tupla}")
-    
+        
+
 
  
 
