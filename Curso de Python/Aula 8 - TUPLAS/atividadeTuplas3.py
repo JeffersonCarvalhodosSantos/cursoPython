@@ -11,17 +11,17 @@
 
 classificacao = ['Amazonas FC' , 'América-MG' , 'Avai' , 'Botafogo SP' , 'Brusque' , 'CRB' , 'Ceará' , 'Chapecoense' , 'Coritiba' , 'Goiás' , 'Guarani' , 'Ituano' , 'Mirassol' , 'Novorizontino' , 'Operário' , 'Paysandu' , 'Ponte Preta' , 'Santos' , 'Sport' , 'Vila Nova']
 
-cincoPrimeiros = classificacao[0:4]
-print(cincoPrimeiros)
+cincoPrimeiros = classificacao[0:5]
+print(f"Os times {cincoPrimeiros} são os cinco primeiros da tabela")
 
 serieC = classificacao[16:20]
-print(serieC)
+print(f"Os times {serieC} são os 4 últimos da tabela") 
 
 ordemAlfabetica = sorted(classificacao)
-print(ordemAlfabetica)
+print(f"A Classificação em ordem alfabética: {ordemAlfabetica}")  # Sorted
 
 santosJaVaiCair = classificacao[17]
-print(santosJaVaiCair)
+print(f"Mal começou e o {santosJaVaiCair} já vai cair em 17° kkkk")
 
 
 

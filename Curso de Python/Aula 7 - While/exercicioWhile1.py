@@ -1,7 +1,7 @@
 from random import *
 escolhaMaquina = randint(0,10)
 print(escolhaMaquina)
-rodadas = 0  # Variável declarando o início de jogadas
+rodadas = 1  # Variável declarando o início de jogadas
 
 while True:
 

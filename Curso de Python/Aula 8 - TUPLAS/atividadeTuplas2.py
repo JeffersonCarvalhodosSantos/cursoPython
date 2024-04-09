@@ -12,12 +12,11 @@ import random
 
 for numeroAleatorio in range (0,5):
         numeroAleatorio = random.randint(5,15)
-        print(numeroAleatorio)
+        
+        tupla = tuple(numeroAleatorio) 
+print(numeroAleatorio)
 
-numeroAleatorio = [12, 9 , 7 ,13, 34]
-tupla = tuple(numeroAleatorio)
 
-print(tupla)
 
         
 
