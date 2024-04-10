@@ -55,5 +55,8 @@ print(numerosPares)
 #     resto = n % 2
 #     if resto == 0:
 #         print(n, end=' ')
+
+
+####################### 3a
         
         
