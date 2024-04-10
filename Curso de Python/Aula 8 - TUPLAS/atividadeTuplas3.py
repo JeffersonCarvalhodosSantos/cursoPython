@@ -15,13 +15,18 @@ cincoPrimeiros = classificacao[0:5]
 print(f"Os times {cincoPrimeiros} são os cinco primeiros da tabela")
 
 serieC = classificacao[16:20]
+# serieC = classificacao[-4:]
 print(f"Os times {serieC} são os 4 últimos da tabela") 
 
 ordemAlfabetica = sorted(classificacao)
-print(f"A Classificação em ordem alfabética: {ordemAlfabetica}")  # Sorted
+print(f"A Classificação em ordem alfabética: {ordemAlfabetica}")  # Sorted - Organiza em ordem alfabética
 
 santosJaVaiCair = classificacao[17]
 print(f"Mal começou e o {santosJaVaiCair} já vai cair em 17° kkkk")
+
+#Exemplo
+ssantosJaVaiCair = classificacao.index('Santos')   # Index identifica onde está localizado o valor quando digitado seu nome.
+print(ssantosJaVaiCair)
 
 
 

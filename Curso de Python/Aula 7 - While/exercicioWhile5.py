@@ -6,12 +6,12 @@ mulheres = 0
 while True:
 
     idade = int(input("Qual a idade? "))
-    sexo = input("Qual o sexo? M ou F? ").upper
-    continuar = input("Deseja continuar cadastrando? [S/N]")
+    sexo = input("Qual o sexo? M ou F? ").upper()  # Colocar controle Regrar F ou M
+    continuar = input("Deseja continuar cadastrando? [S/N]").upper()
 
     if idade >= 18:
         deMaior = deMaior + 1
-    else: deMaior = deMaior
+    else: deMaior = deMaior  # Não precisa ser feito (testar)
 
     if sexo == "M":
         homens = homens + 1

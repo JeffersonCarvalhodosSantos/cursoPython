@@ -28,7 +28,6 @@ while True:
         print(f"Você ganhou, {soma} é par.")
         vitorias = vitorias + 1
 
-
     elif parOuImpar == 1 and opcoesUsuario == "IMPAR":
         print(f"Você ganhou, {soma} é ímpar.")
         vitorias = vitorias + 1
