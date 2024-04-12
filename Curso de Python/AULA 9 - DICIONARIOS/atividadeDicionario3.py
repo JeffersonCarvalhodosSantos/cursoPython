@@ -30,6 +30,9 @@ if dicionario['carteira'] == 0:
         print(f" O {k} tem o valor {v}")
         
         
+# falta colocar se caso não tenha carteira
+        
+        
 
 
 print(dicionario)
