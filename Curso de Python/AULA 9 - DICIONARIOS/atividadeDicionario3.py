@@ -10,3 +10,29 @@
 # Sabendo que ele vai se aposentar após 35 anos de
 # colaboração.
 
+from datetime import date
+
+dicionario = {}
+anoAtual = date.year
+
+dicionario['nome'] = str(input("Nome: "))
+dicionario['ano'] = int(input("Nascimento: "))
+dicionario['carteira'] = int(input("Carteira de trabalho: "))
+
+
+idade = (anoAtual - dicionario['ano'])
+del dicionario['ano']
+dicionario['Idade'] = idade
+
+if dicionario['carteira'] == 0:
+    print(dicionario)
+    for k, v in dicionario.items():
+        print(f" O {k} tem o valor {v}")
+        
+        
+
+
+print(dicionario)
+
+
+
