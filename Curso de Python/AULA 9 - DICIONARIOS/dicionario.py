@@ -50,8 +50,8 @@
 estado = {}
 brasil = list() # Podemos declarar lista dessa maneira
 
-for c in range(0,2):
-    estado['uf'] = str(input("Unidade Federativa: "))
+for c in range(0,2):                                         # Para cada variavel em um range de (0 a 2)
+    estado['uf'] = str(input("Unidade Federativa: "))        # 
     estado['sigla'] = str(input("Sigla do Estado: "))
     brasil.append(estado.copy())
     
