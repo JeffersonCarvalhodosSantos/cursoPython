@@ -16,34 +16,31 @@
 #     dicionario['situacao'] = "Reprovado"
 # print(dicionario)
 
-dados = {}
-alunos = list()
-pausa = 'N'
+alunos = []
 
 while True:
+    dados = {}
     
+    dados['Nome'] = input("Nome do aluno: ")
+    dados['Media'] = float(input("Média do aluno: "))
+    
+    if dados['Media'] >= 7:
+        dados['Situacao'] = "Aprovado"
+    elif dados['Media'] >= 5:
+        dados['Situacao'] = "Recuperação"
+    else:
+        dados['Situacao'] = "Reprovado"
+
+    alunos.append(dados)
+    
+    pausa = input('Para continuar digite S, para parar digite X: ').upper()
     if pausa == 'X':
         break
-    else:
-        dados['Nome'] = str(input("Nome do aluno: "))
-        dados['Media'] = int(input("Media do aluno: "))
-        
-        if dados['Media'] >= 7:
-            dados['situacao']= "Aprovado"
-        else:
-            dados['situacao']= "Reprovado"
-            
-       
-        alunos.append(dados.copy())
-        
-    pausa = input('Para continuar digite A para parar digite X:').upper()
 
-print(dados)
-for k, v in dados.items():
-    print(f"Nome: {k} Situação: {v}")
-    print(f"O Nome é igual a {dados['Nome']}")
-    print(f"A Média é igual a {dados['Media']}")
-    print(f"Sua Situação é {dados['situacao']}")
+for aluno in alunos:
+    print(f"\nNome: {aluno['Nome']}")
+    print(f"Média: {aluno['Media']}")
+    print(f"Situação: {aluno['Situacao']}")
 
 
 
