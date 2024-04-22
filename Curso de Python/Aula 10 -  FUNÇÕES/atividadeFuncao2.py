@@ -4,10 +4,18 @@
 # receba um texto qualquer como parâmetro e mostre uma mensagem com
 # tamanho adaptável.
 
-def escreva():
-    print("-" * 30)
-    nome = "Jefferson"
-    print("-" * 30)
-    escreva(nome)
+texto = input("Digite um texto: ")
+
+def escreva(texto):
+    quantidade = len(texto)
+
+    print("-" * quantidade)
+    print(texto)
+    print("-" * quantidade)
     
-escreva()
+escreva(texto)
+
+
+
+    
+
