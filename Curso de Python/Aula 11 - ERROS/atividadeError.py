@@ -4,6 +4,8 @@
 # números e divida o primeiro número pelo segundo. Certifique-se
 # de lidar com a possibilidade de divisão por zero.
 
+#Podemos usar while e break para repetir a cada vez que o usuário errar algo.
+
 try:
     
     numUsuario = int(input("Digite um número: "))
@@ -14,6 +16,9 @@ try:
         print("Não será possível fazer a divisão, alguém escolheu o número '0'")
     else: numUsuario and numUsuario2 != 0
     print(divisao)
-
+    
 except ZeroDivisionError:
     print("Não há como dividir por Zero, tente novamente...")
+    
+except ValueError:
+    print("Digite um valor numérico")
